@@ -115,6 +115,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AditionDecorator.h" />
+    <ClInclude Include="Drink.h" />
+    <ClInclude Include="Coffee.h" />
+    <ClInclude Include="Lemon.h" />
+    <ClInclude Include="Milk.h" />
+    <ClInclude Include="Shugar.h" />
+    <ClInclude Include="Tea.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
